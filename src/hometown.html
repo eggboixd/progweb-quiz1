@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./input.css" rel="stylesheet">
+  <link href="./hometown.css" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
+  <title>Fadhil Revinno Hairiman</title>
+</head>
+<body style="background-color: #212129;">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--Navbar-->
+    <nav class="bg-[#323949] shadow-lg">
+        <div class="container mx-auto">
+            <div class="sm:flex justify-around">
+                <a href="#" class="text-white text-3xl font-bold p-3">FRH</a>
+                <ul class="text-gray-400 sm:self-center text-xl border-t sm:border-none">
+                    <li class="sm:inline-block">
+                        <a href="./index.html" class="p-3 hover:text-white">Home</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="./profile.html" class="p-3 hover:text-white">Profile</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="./hometown.html" class="p-3 hover:text-white">Hometown</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="./food.html" class="p-3 hover:text-white">Food</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="./tourist.html" class="p-3 hover:text-white">Tourist</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hometown-->
+    
+    <div class="flex flex-col justify-center items-center mx-10 mt-10 h-[calc(90vh-10rem)]"> 
+
+        <!--Hometown Title-->
+        <div class="flex flex-col max-w-3xl text-center mt-10">  
+            <h1 class="mt-8 mb-6 text-white text-4xl sm:text-5xl font-bold relative w-[max-content] font-mono
+            before:absolute before:inset-0 before:animate-typewriter
+            before:bg-[#212129]
+            after:absolute after:inset-0 after:w-[0.125em] after:animate-caret
+            after:bg-white">
+            Jakarta</h1>
+        </div>
+
+        <!--Carousel-->
+        <div class="wrapper w-full max-w-3xl">
+            <input type="radio" name="slide" id="one" checked>
+            <input type="radio" name="slide" id="two">
+            <input type="radio" name="slide" id="three">
+            <input type="radio" name="slide" id="four">
+            <input type="radio" name="slide" id="five">
+            
+            <div class="img img-1">
+                <img src="../assets/images/img-1.jpeg" alt="">
+            </div>
+            <div class="img img-2">
+                <img src="../assets/images/img-2.jpg" alt="">
+            </div>
+            <div class="img img-3">
+                <img src="../assets/images/img-3.jpeg" alt="">
+            </div>
+            <div class="img img-4">
+                <img src="../assets/images/img-4.jpeg" alt="">
+            </div>
+            <div class="img img-5">
+                <img src="../assets/tourist/hutan_kota_gbk.png" alt="">
+            </div>
+            
+            <div class="sliders flex justify-center space-x-2 mt-4">
+                <label for="one" class="one cursor-pointer"></label>
+                <label for="two" class="two cursor-pointer"></label>
+                <label for="three" class="three cursor-pointer"></label>
+                <label for="four" class="four cursor-pointer"></label>
+                <label for="five" class="five cursor-pointer"></label>
+            </div>
+        </div>
+
+        <!--Hometown Title-->
+        <div class="font-mono max-w-3xl text-center">
+        <p1 class="text-white text-2xl">
+            Jakarta, Indonesia's massive capital, sits on the northwest coast of the island of Java. A historic mix 
+            of cultures – Javanese, Malay, Chinese, Arab, Indian and European – has influenced its architecture, 
+            language and cuisine. The old town, Kota Tua, is home to Dutch colonial buildings, Glodok (Jakarta’s Chinatown) 
+            and the old port of Sunda Kelapa, where traditional wooden schooners dock.
+        </p1>
+
+        </div>
+
+        
+    </div>
+
+    
+</body>
+</html>
