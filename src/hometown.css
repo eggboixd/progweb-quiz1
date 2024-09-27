@@ -11,9 +11,7 @@
   position: relative;
   width: 100%; /* Changed to allow for responsiveness */
   max-width: 700px; /* Tailwind: max-w-3xl */
-  height: 400px;
-  margin-top: 50px; /* Tailwind: mt-12 */
-  margin-bottom: 50px;
+  height: 500px;
 }
 
 /* Image styles */
